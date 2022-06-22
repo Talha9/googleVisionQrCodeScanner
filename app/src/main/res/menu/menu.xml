@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <item
+            android:id="@+id/scan"
+            android:checked="true"
+            android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+            android:title="Scan" />
+        <item
+            android:id="@+id/scanImg"
+
+            android:icon="@drawable/ic_baseline_image_24"
+            android:title="Scan Image" />
+
+
+        <item
+            android:id="@+id/fav"
+            android:icon="@drawable/ic_baseline_star_outline_24"
+            android:title="Favourite" />
+
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="History" />
+
+        <item
+            android:id="@+id/myQR"
+            android:icon="@drawable/ic_baseline_account_box_24"
+            android:title="My QR" />
+
+        <item
+            android:id="@+id/createQr"
+            android:icon="@drawable/ic_baseline_create_24"
+            android:title="Create QR" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share" />
+
+</menu>

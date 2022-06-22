@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.googlevisionqrcodescanner.HomeFragment"
+
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/favFragment"
+        android:name="com.example.googlevisionqrcodescanner.FavFragment"
+        tools:layout="@layout/fragment_fav" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.googlevisionqrcodescanner.HistoryFragment"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/myQRFragment"
+        android:name="com.example.googlevisionqrcodescanner.MyQRFragment"
+        tools:layout="@layout/fragment_my_q_r" />
+    <fragment
+        android:id="@+id/createQRFragment"
+        android:name="com.example.googlevisionqrcodescanner.Fragments.CreateWRFragment.CreateQRFragment"
+        tools:layout="@layout/fragment_create_q_r" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.googlevisionqrcodescanner.SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
+
+
+</navigation>
